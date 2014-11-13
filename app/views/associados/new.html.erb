@@ -1,0 +1,52 @@
+<h1>new Associado</h1>
+<%= form_for :associados, url: associados_path do |f| %>
+  <p>
+    <%= f.label :nome %><br>
+    <%= f.text_field :nome %>
+  </p>
+ 
+  <p>
+    <%= f.label :endereco %><br>
+    <%= f.text_field :endereco %>
+  </p>
+
+  <p>
+    <%= f.label :bairro %><br>
+    <%= f.text_field :bairro %>
+  </p>
+
+  <p>
+    <%= f.label :cpf %><br>
+    <%= f.text_field :cpf %>
+  </p>
+
+  <p>
+    <%= f.label :rg %><br>
+    <%= f.text_field :rg %>
+  </p>
+
+  <p>
+    <%= f.label :pis_pasep %><br>
+    <%= f.text_field :pis_pasep %>
+  </p>
+
+  <p>
+    <%= f.label :ctps %><br>
+    <%= f.text_field :ctps %>
+  </p>
+
+  <p>
+    <%= f.label :nome_mae %><br>
+    <%= f.text_field :nome_mae %>
+  </p>
+
+  <p>
+    <%= f.label :convenio %><br>
+    <%= f.text_field :convenio %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+<%= link_to 'Back', associados_path %>

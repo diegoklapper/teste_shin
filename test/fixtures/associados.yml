@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: 
+  endereco: 
+  bairro: 
+  cpf: 
+  rg: 
+  pis_pasep: 
+  ctps: 
+  nome_mae: 
+  convenio: 
+
+two:
+  nome: 
+  endereco: 
+  bairro: 
+  cpf: 
+  rg: 
+  pis_pasep: 
+  ctps: 
+  nome_mae: 
+  convenio: 

@@ -1,0 +1,31 @@
+<h1>Lista de Associados</h1>
+
+<table>
+	<tr>
+		<th>Nome</th>
+		<th>Endereço</th>
+		<th>Bairro</th>
+		<th>CPF</th>
+		<th>RG</th>
+		<th>PIS/PASEP</th>
+		<th>CTPS</th>
+		<th>Nome da Mãe</th>
+		<th>Convenio</th>
+	</tr>
+
+	<% @associados.each do |associados| %>
+    <tr>
+      <td><%= associados.nome %></td>
+      <td><%= associados.endereco %></td>
+      <td><%= associados.bairro %></td>
+      <td><%= associados.cpf %></td>
+      <td><%= associados.rg %></td>
+      <td><%= associados.pis_pasep %></td>
+      <td><%= associados.ctps %></td>
+      <td><%= associados.nome_mae %></td>
+      <td><%= associados.convenio %></td>
+    </tr>
+  <% end %>
+</table>
+
+<%= link_to 'New associados', new_associado_path %>
